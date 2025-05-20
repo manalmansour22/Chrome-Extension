@@ -26,6 +26,11 @@ input {
     border-radius: 8px;
 
 }
+.btn-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
 button {
     background-color: unset;
     padding: 16px 12px;
@@ -35,14 +40,17 @@ button {
     font-size: 16px;
     color: #ffffff;
     background-color: #3B7860;
-    border: unset;
+    border: 1px solid #3B7860;
     border-radius: 8px;
     font-weight: 600;
-    width: 100%;
     margin-bottom: 5px;
     cursor: pointer;
+    width: 100%;
 }
-
+ button#delete-btn{
+    background: white;
+    color: #3B7860;
+ }
 ul {
     list-style: none;
     padding-left: 0;
